@@ -134,7 +134,7 @@
                         .mob-back{
                             width: 100%;
                             height: 220%;
-                            background-image: url(../../images/background/webback.png);
+                            background-image: url(../images/background/webback.png);
                             background-size: cover;
                             background-attachment: fixed;
                             position: absolute;
@@ -149,13 +149,13 @@
                     #game-icon{
                         background: linear-gradient(125deg, #002410 0%, #006553 52%, #028164 100%);
                         .mob-back{
-                            background-image: url(../../images/background/gameback.png);
+                            background-image: url(../images/background/gameback.png);
                         }
                     }
                     #temp-icon{
                         background: linear-gradient(125deg, #001d24 0%, #10617c 49%, #006383 100%);
                         .mob-back{
-                            background-image: url(../../images/background/tempback.png);
+                            background-image: url(../images/background/tempback.png);
                         }
                     }
                     .icons, .game-icons, .temp-icons{
@@ -183,7 +183,7 @@
                             background: rgba(0, 0, 0, 0.1);
                         }
                         &::-webkit-scrollbar-thumb{
-                            background: url(../../images/icons/scrollMobile.svg);
+                            background: url(../images/icons/scrollMobile.svg);
                             background-repeat: no-repeat;
                             background-size: 15px;  
                             background-position: -5px 30px;
