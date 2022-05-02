@@ -618,7 +618,7 @@ header .header_img .img img {
   margin-left: 40px;
 }
 
-.menu .container ul .products li a:hover {
+.menu .container ul .products li:first-child a:hover {
   color: orange;
 }
 

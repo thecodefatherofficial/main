@@ -94,10 +94,14 @@
                 li{
                     &:first-child{
                         margin-left: 40px;
+                        a{
+                            &:hover{
+                                color: orange;
+                            }
+                        }
                     }
                     a{
                         &:hover{
-                            color: orange;
                             img{
                                 filter: none;
                             }
