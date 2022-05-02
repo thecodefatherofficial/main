@@ -1,0 +1,48 @@
+.footer{
+    background: linear-gradient(-145deg, rgb(66, 0, 172) 0%, rgba(40,0,105,1) 100%);
+    color: var(--white);
+    i{
+        font-style: normal;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        span{
+            font-size: 10px;
+        }
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        @media screen and (max-width: 550px){
+            width: 90%;
+        }
+    }
+    &_logo{
+        img{
+            width: 100px;
+        }
+    }
+    &_list{
+        li{
+            list-style: none;
+            a{
+                color: var(--white);
+                text-decoration: none;
+            }
+        }
+        @media screen and (max-width: 768px){
+            &:last-child{
+                display: none;
+            }
+        }
+        @media screen and (max-width: 630px){
+            &:nth-child(3){
+                display: none;
+            }
+        }
+    }
+}
