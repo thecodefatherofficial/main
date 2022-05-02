@@ -1,0 +1,108 @@
+.dark{
+    &::-webkit-scrollbar{
+        background: var(--very-dark-gray);
+    }
+    background-color: var(--dark-gray);
+    .menu{
+        background: var(--very-dark-gray);
+        ul li a{
+            color: var(--white);
+            img{
+                filter: invert(100%) sepia(0%) saturate(3275%) hue-rotate(300deg) brightness(119%) contrast(100%);
+            }
+        }
+        .products{
+            img{
+                filter: none;
+            }
+            li{
+                &:last-child{
+                    img{
+                        filter: invert(100%) sepia(0%) saturate(3275%) hue-rotate(300deg) brightness(119%) contrast(100%);
+                    }
+                }
+            }
+        }
+        .notification{
+            @media screen and (max-width: 550px){
+                background: var(--very-dark-gray);
+            }
+        }
+    }
+
+    // ------header-----
+    header{
+        background-image: url(../images/background/header_back_dark.svg);
+        .header{
+            &_img{
+                background-color: var(--very-dark-gray);
+                @media screen and (max-width: 550px){
+                    background: transparent;
+                }
+            }
+            &_text-btn{
+                color: var(--text-dark-white);
+            }
+        }
+    }
+
+    //-----about------
+
+    .about{
+        background: var(--dark-gray);
+        color: var(--text-dark-white);
+    }
+
+    // ------contact--------
+
+    .contact{
+        color: var(--text-dark-white);
+        .info{
+            a{
+                color: var(--text-dark-white);
+            }
+        }
+        form{
+            label{
+                background: var(--dark-gray);
+            }
+        }
+    }
+
+    // ---------footer----------
+
+    .footer{
+        background: linear-gradient(-145deg, rgb(26, 26, 26) 0%, rgba(12, 12, 12,1) 100%);
+    }
+
+    // ------------mode--------
+    .mode{
+        &-body{
+            background: var(--dark-gray);
+        }
+    }
+
+    // ------------notif--1---------
+
+    .main-notification{
+        background: var(--dark-gray);
+        &_message{
+            color: var(--text-dark-white);
+        }
+    }
+
+    // ----------notif--2----------
+
+    .notifications-body{
+        background: var(--dark-gray);
+        &_text{
+            color: var(--text-dark-white);
+        }
+    }
+
+    // --------preloader---------
+
+    .preloader{
+        background: var(--very-dark-gray);
+    }
+}

@@ -1,0 +1,148 @@
+.preloader{
+    background: var(--white);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+        height: 250px;
+        &-logo{
+            width: 260px;
+            position: absolute;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100px;
+                filter: invert(21%) sepia(80%) saturate(4129%) hue-rotate(259deg) brightness(63%) contrast(143%);
+            }
+        }
+       
+        &-cricle{
+            width: 260px;
+            height: 250px;
+            position: relative;
+            animation: rotLoader 10s 0s linear infinite;
+            &-item{
+                top: 100px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                transform: rotate(calc(360deg / 8 * 2));
+                transform-origin: 130px;
+                .item-1{
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    fill: none;
+                    stroke: url(#linegrad);
+                    stroke-width: 4px;
+                    stroke-dasharray: 20;
+                    animation: rotLoader 1.6s 0s linear infinite;
+                }
+                .item-2{
+                    width: 9px;
+                    height: 6px;
+                    position: absolute;
+                    background: linear-gradient(145deg, rgba(83,0,214,1) 0%, rgba(40,0,105,1) 100%);
+                    border-radius: 9px;
+                }
+            }
+            .i6{
+                transform: rotate(calc(360deg / 8 * 6));
+                .item-1{
+                    animation: rotLoader2 1.2s 0s linear infinite;
+                    stroke-dasharray: 15;
+                }
+                .item-2{
+                    width: 6px;
+                    height: 6px;
+                }
+            }
+            .i7{
+                transform: rotate(calc(360deg / 8 * 7));
+                .item-1{
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    stroke-dasharray: 10;
+                }
+                .item-2{
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+            .i8{
+                transform: rotate(calc(360deg / 8 * 8));
+            }
+            .i2{
+                transform: rotate(calc(360deg / 8 * 3));
+                .item-1{
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    stroke-dasharray: 10;
+                }
+                .item-2{
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+            .i3{
+                transform: rotate(calc(360deg / 8 * 4));
+                .item-1{
+                    animation: rotLoader2 1.2s 0s linear infinite;
+                    stroke-dasharray: 15;
+                }
+                .item-2{
+                    width: 6px;
+                    height: 6px;
+                }
+            }
+            .i4{
+                transform: rotate(calc(360deg / 8 * 5));
+                .item-1{
+                    animation: rotLoader2 1.2s 0s linear infinite;
+                    stroke-dasharray: none;
+                }
+                .item-2{
+                    display: none;
+                }
+            }
+            .i5{
+                transform: rotate(calc(360deg / 8 * 1));
+                .item-1{
+                    animation: rotLoader2 1.2s 0s linear infinite;
+                    stroke-dasharray: 18;
+                }
+                .item-3{
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    fill: none;
+                    stroke: url(#linegrad);
+                    stroke-width: 3px;
+                    stroke-dasharray: 10;
+                    animation: rotLoader 1.6s 0s linear infinite;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}

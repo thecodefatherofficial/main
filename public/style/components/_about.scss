@@ -1,0 +1,138 @@
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/background/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    &_desktop{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+        .block{
+            width: 300px;
+            text-align: center;
+            line-height: 25px;
+            .block-text{
+                margin-top: 20px;
+            }
+            hr{
+                width: 150px;
+                margin: 15px auto 10px auto;
+            }
+            p{
+                font-size: 16px;
+            }
+            img{
+                width: 290px;
+            }
+            b{
+                color: var(--purple);
+                font-weight: 600;
+            }
+            h2{
+                font-size: 25px;
+            }
+        }
+        .block-2{
+            img{
+                width: 330px
+            }
+        }
+        .block-1{
+            margin-top: 250px
+        }
+        @media screen and (max-width: 1024px){
+            .block{
+                width: 150px;
+                line-height: 17px;
+                .block-text{
+                    margin-top: 20px;
+                }
+                hr{
+                    width: 70px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                img{
+                    width: 150px;
+                }
+                b{
+                    color: var(--purple);
+                    font-weight: 600;
+                }
+                h2{
+                    font-size: 17px;
+                }
+                &-2{
+                    width: 200px;
+                    img{
+                        width: 200px
+                    }
+                }
+                &-1{
+                    margin-top: 150px
+                }
+            }
+        }
+    }
+    &_mobile{
+        display: none;
+    }
+    @media screen and (max-width: 550px){
+        &_desktop{
+            display: none;
+        }
+        &_mobile{
+            display: block;
+
+            .carousel{
+                width: 320px;
+                height: 350px;
+                margin: 70px auto 100px;
+                a{
+                    opacity: 1;
+                    width: 35px;
+                    }
+                &-control-next-icon{
+                    background-image: url(../../images/icons/right-arrow.png);
+                }
+                &-control-prev-icon{
+                    background-image: url(../../images/icons/left-arrow.png);
+                }
+                &-indicators{
+                    display: none;
+                }
+                &-inner{
+                    width: 250px;
+                    margin: 0 auto;
+                    text-align: center;
+                    img{
+                        width: 250px;
+                    }
+                    .block{
+                        &_text{
+                            h2{
+                                margin-top: 10px;
+                                b{
+                                    color: var(--purple);
+                                    font-weight: 600;
+                                }
+                            }
+                            hr{
+                                width: 100px;
+                                margin: 10px auto;
+                            }
+                        }
+                        &_2{
+                            img{
+                                width: 300px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
