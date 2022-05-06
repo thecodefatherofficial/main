@@ -17,7 +17,7 @@ const About = () =>{
                 </div>
         
                 <div className="block-1 block">
-                    <img src="images/vectors/web-developer.png" alt="" />
+                    <img src="images/vectors/vector-1.png" alt="" />
                     <div className="block-text">
                         <h2><b>Վ</b>եբ <b>Ծ</b>րագարվորում</h2>
                         <hr />
@@ -26,11 +26,11 @@ const About = () =>{
                 </div>
         
                 <div className="block-3 block">
-                    <img src="images/vectors/website-recovery.png" alt="" />
+                    <img src="images/vectors/web-developer-help.png" alt="" />
                     <div className="block-text">
-                        <h2><b>Պ</b>ատրաստի <b>Կ</b>այքերի <b>Թ</b>եմպլեյտներ</h2>
+                        <h2><b>Օ</b>գնություն <b>Ծ</b>րագրավորողին</h2>
                         <hr />
-                        <p>Կարող եք այստեղից ներբեռնել պատրաստի կայքեր և ձևափոխելով այն ստանալ ձեր ուզածը։</p>
+                        <p>Այստեղից կգտնեք ծրագրավորողին օգնող գործիքներ։</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const About = () =>{
             <div className="about_mobile">
                 <Carousel>
                     <Carousel.Item className="block block-1">
-                        <img src="images/vectors/web-developer.png"/>
+                        <img src="images/vectors/vector-1.png"/>
                         <div className="block_text">
                             <h2><b>Վ</b>եբ <b>Ծ</b>րագարվորում</h2>
                             <hr />
@@ -55,7 +55,7 @@ const About = () =>{
                         </div>
                     </Carousel.Item>
                     <Carousel.Item className="block block-3">
-                        <img src="images/vectors/website-recovery.png"/>
+                        <img src="images/vectors/web-developer-help.png"/>
                         <div className="block_text">
                             <h2><b>Պ</b>ատրաստի <b>Կ</b>այքերի <b>Թ</b>եմպլեյտներ</h2>
                             <hr />

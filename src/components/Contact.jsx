@@ -9,6 +9,7 @@ const Contact = () =>{
 
     return(
         <section className="contact" id="contact">
+            <img className="contact_img" src="images/vectors/contact-img.png" alt="" />
             <h2 className="title"><span>Կ</span>ապի <span>Հ</span>աստատում</h2>
             <div className="container">
                 <div className="info">

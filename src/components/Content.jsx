@@ -128,33 +128,31 @@ function Content(){
 
                     <div className="items" onClick={openTemp}>
                         <div className="main-item" id="temp-logo">
-                            <img src="images/icons/template.svg" alt="" />
-                            <p>Թեմպլեյթներ</p>
+                            <img src="images/icons/help.svg" alt="" />
+                            <p>Օգնություն Ծրագրավորողին</p>
                         </div>
                         <div className="temp-icons" id="temp-icon">
                             <div className="mob-back"></div>
                             <div className="icons_item">
-                                <a href="https://gormkrtchyann.github.io/templates/" target="_blank" rel="noopener noreferrer">
-                                    <p>Խանութ</p>
-                                    <img src="images/logo/shopicon.png" alt="" />
+                                <a href="https://gormkrtchyann.github.io/caster/" target="_blank" rel="noopener noreferrer">
+                                    <p>Caster / CSS JS Framework</p>
+                                    <img src="images/logo/casterlogo.png" alt="" />
                                 </a>
                             </div>
                             <div className="icons_item">
                                 <a href="https://gormkrtchyann.github.io/templates/" target="_blank" rel="noopener noreferrer">
-                                    <p>Կրիպտո</p>
-                                    <img style={style} src="images/logo/token.png" alt="" />
+                                    <p>CodeEditor</p>
+                                    <img style={style} src="images/icons/codeeditor.svg" alt="" />
                                 </a>
                             </div>
                             <div className="icons_item">
-                                <a href="https://gormkrtchyann.github.io/templates/" target="_blank" rel="noopener noreferrer">
-                                    <p>Դասական</p>
-                                    <img src="images/logo/temp.png" alt="" />
-                                </a>
-                            </div>
-                            <div className="icons_item">
-                                <a href="https://gormkrtchyann.github.io/templates/" target="_blank" rel="noopener noreferrer">
-                                    <p>Ավելին</p>
-                                    <img src="images/logo/seeall.png" alt="" />
+                                <div className="noWorking">
+                                    <img style={style} src="images/icons/coming-soon.png" alt="" />
+                                    <span>շուտով</span>
+                                </div>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <p>Generators</p>
+                                    <img style={style} src="images/icons/generators.svg" alt="" />
                                 </a>
                             </div>
                         </div>

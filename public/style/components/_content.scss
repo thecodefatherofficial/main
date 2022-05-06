@@ -42,6 +42,9 @@
                         border-radius: 10px;
                         position: relative;
                         overflow: hidden;
+                        p{
+                            line-height: 16px;
+                        }
                         .noWorking{
                             position: absolute;
                             background: rgba(0, 0, 0, 0.7);
@@ -78,7 +81,9 @@
                         filter: invert(96%) sepia(0%) saturate(2%) hue-rotate(315deg) brightness(110%) contrast(100%);
                     }
                     p{
-                        font-size: 17px;
+                        font-size: 16px;
+                        line-height: 17px;
+                        margin-top: 5px;
                         font-weight: 600;
                     }
                 }

@@ -13,7 +13,7 @@ const Footer = () => {
                         <li><a href="https://gormkrtchyann.github.io/thecodefather-about/" target="_blank" rel="noopener noreferrer">Մասին</a></li>
                         <li><a href="#content">Վեբ Դասեր</a></li>
                         <li><a href="#content">Խաղեր</a></li>
-                        <li><a href="#content">Թեմպլեյթներ</a></li>
+                        <li><a href="#content">Օգնություն Ծրագրավորողին</a></li>
                         <li><a href="#contact">Կոնտակտ</a></li>
                     </ul>
 
