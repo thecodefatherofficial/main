@@ -87,68 +87,7 @@
                         }
                     }
                 }
-            }
-            .products{
-                display: flex;
-                border-left: 1px solid;
-                li{
-                    &:first-child{
-                        margin-left: 40px;
-                        a{
-                            &:hover{
-                                color: orange;
-                            }
-                        }
-                    }
-                    a{
-                        &:hover{
-                            img{
-                                filter: none;
-                            }
-                        }
-                        @media screen and (max-width: 1024px) {
-                            span{
-                                display: none;
-                            }
-                        }
-                    }
-                    &:last-child{
-                        &:hover{
-                            color: var(--purple);
-                            letter-spacing: 1px;
-                            img{
-                                filter: invert(17%) sepia(96%) saturate(5190%) hue-rotate(264deg) brightness(72%) contrast(138%);
-                                @media screen and (max-width: 550px){
-                                    filter: none;
-                                }
-                            }
-                        }
-                    }
-                }
-                @media screen and (max-width: 550px){
-                    display: none;
-                    align-items: center;
-                    justify-content: space-between;
-                    position: absolute;
-                    background: var(--white);
-                    top: -55px;
-                    right: 80px;
-                    padding: 6px 20px;
-                    border-radius: 20px;
-                    border: 1px solid var(--purple);
-                    &.active{
-                        display: flex;
-                    }
-                    li{
-                        &:first-child{
-                            margin: 0 20px 0 0;
-                        }
-                        &:last-child{
-                            margin: 0;
-                        }
-                    }
-                }
-            }
+            }   
         }
         .notification{
             cursor: pointer;
